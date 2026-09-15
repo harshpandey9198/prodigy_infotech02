@@ -1,0 +1,20 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "CRUD web application for managing employee records with authentication — Prodigy Infotech Task 02",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["employee", "crud", "management", "express"],
+  "author": "Prodigy Infotech",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1"
+  }
+}
